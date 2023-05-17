@@ -1,0 +1,7 @@
+@media (max-width: 650px) {
+   .head {
+       flex-direction: column;
+   }
+}
+
+
