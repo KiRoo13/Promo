@@ -1,11 +1,11 @@
-const arrImg = ['./img/Card.png','./img/Balse.png']
+const arrImg = ['./img/Card.png','./img/Balls.png']
 
 // Создает картинки
 function createSlideImg () {
    for (let i = 0; i < arrImg.length; i++) {
       // console.log(arrImg[i])
          document.querySelector('.slider__line').innerHTML += `
-         <a href=${i == 0 ? 'https://kiroo13.github.io/GameCardBuild/' : 'https://kiroo13.github.io/GameBalseBuld/'} target="_blank"><img class="slider-img" src=${arrImg[i]} alt=${i + 1}></a>
+         <a href=${i == 0 ? 'https://kiroo13.github.io/GameCardBuild/' : 'https://kiroo13.github.io/GameBallsBuild/'} target="_blank"><img class="slider-img" src=${arrImg[i]} alt=${i + 1}></a>
          `
    }
    createDote()
